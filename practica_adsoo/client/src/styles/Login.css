@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inika', serif;
+  }
+
+body{
+    background-color: #D9D9D9;
+}
+
+h4{
+    margin-top: 10vh;
+    color: #FFFFFF;
+    background-color: black;
+    border: black;
+    border-radius: 3vh;
+}
+
+button{
+    margin-top: 7vh;
+    margin-left: 13vh;
+}
+
+.cuadradolog{
+    width: 140vh;
+    background-color: #FFFFFF;
+    border-radius: 2vh;
+    align-items: center;
+}
+
+#Login{
+    display: flex;
+    justify-content: center;
+}
+
+#camposFormulario{
+    margin-top: 7vh;
+}
+
+
+
+#imagen{
+    border-radius: 2vh;
+}
