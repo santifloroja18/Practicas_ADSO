@@ -6,6 +6,7 @@ import './index.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Login from './pages/Login';
 import Registro from './pages/Registro';
+import PrestamoAmbientes from './pages/PrestamoAmbientes';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
   {
     path: '/registro',
     element: <Registro/>,
+    errorElement: <div>ERROR 404!!</div>
+  },
+  {
+    path: '/prestamoAmbientes',
+    element: <PrestamoAmbientes/>,
     errorElement: <div>ERROR 404!!</div>
   }
 ])
